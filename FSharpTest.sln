@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSharpTest", "FSharpTest.csproj", "{5686F7CA-F129-D577-3D8F-4F97F6C87EF2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Library1", "Library1\Library1.fsproj", "{E8706BDF-9E5C-4033-98D4-A672C30F0521}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.fsproj", "{F630D24F-535D-4A9C-A1AF-3D9D39446D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5686F7CA-F129-D577-3D8F-4F97F6C87EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5686F7CA-F129-D577-3D8F-4F97F6C87EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5686F7CA-F129-D577-3D8F-4F97F6C87EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5686F7CA-F129-D577-3D8F-4F97F6C87EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8706BDF-9E5C-4033-98D4-A672C30F0521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8706BDF-9E5C-4033-98D4-A672C30F0521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8706BDF-9E5C-4033-98D4-A672C30F0521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8706BDF-9E5C-4033-98D4-A672C30F0521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F630D24F-535D-4A9C-A1AF-3D9D39446D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F630D24F-535D-4A9C-A1AF-3D9D39446D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F630D24F-535D-4A9C-A1AF-3D9D39446D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F630D24F-535D-4A9C-A1AF-3D9D39446D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
