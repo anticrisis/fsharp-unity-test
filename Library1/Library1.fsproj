@@ -55,7 +55,6 @@
     <Compile Include="Library1.fs" />
     <None Include="Script.fsx" />
     <Content Include="packages.config" />
-    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -77,9 +76,9 @@
   </ItemGroup>
   <PropertyGroup>
     <PostBuildEvent>cd $(TargetDir)
-copy /y FSharp.Core.dll $(ProjectDir)..\..\FSharpTest\Assets\Plugins\
-copy /y Library1.dll $(ProjectDir)..\..\FSharpTest\Assets\Plugins\
-copy /y System.ValueTuple.dll $(ProjectDir)..\..\FSharpTest\Assets\Plugins\
+copy /y FSharp.Core.dll $(ProjectDir)..\Assets\Plugins\
+copy /y Library1.dll $(ProjectDir)..\Assets\Plugins\
+copy /y System.ValueTuple.dll $(ProjectDir)..\Assets\Plugins\
 
 </PostBuildEvent>
   </PropertyGroup>
